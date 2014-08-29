@@ -8,11 +8,11 @@ describe "hello page" do
 
   it "takes a name parameter and says hello to that name" do
     get '/hello', :name => "Constantine"
-    expect(last_response.body).to eq("Hello, Constantine!")
+    expect(last_response.body).to include("Hello, Constantine!")
   end
 
   it "politely informs that no name was found" do
     get '/hello'
-    expect(last_response.body).to eq("I'm sorry, I didn't get your name.")
+    expect(last_response.body).to include("I'm sorry, I didn't get your name.")
   end
 end
