@@ -12,7 +12,7 @@ Start with `route_spec.rb` and write the code in `app.rb` that makes the tests p
 
 After all your tests pass, use `rackup` to run your app, and then make sure it works in the browser as well.
 
-How do you get the /hello path to work with a name? Hint: you need query string parameters.
+How do you get the /hello path to work with a name? Hint: you need [query string parameters](http://en.wikipedia.org/wiki/Query_string).
 
 ## Resources
 * [Thoughtbot](http://robots.thoughtbot.com/) - [How to Test Sinatra-Based Web Applications](http://robots.thoughtbot.com/how-to-test-sinatra-based-web-services)

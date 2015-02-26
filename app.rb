@@ -1,4 +1,4 @@
-require 'sinatra'
+require './config/environment'
 
 class TestApp < Sinatra::Base
   get '/' do
