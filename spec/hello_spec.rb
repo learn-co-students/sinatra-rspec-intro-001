@@ -7,7 +7,7 @@ describe "hello page" do
   end
 
   it "takes a name parameter and says hello to that name" do
-    get '/hello', :name => "Constantine"
+    get('/hello', {:name => "Constantine"})
     expect(last_response.body).to include("Hello, Constantine!")
   end
 
